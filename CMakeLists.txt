@@ -5,7 +5,7 @@ set(CMAKE_VERBOSE_MAKEFILE ON)
 
 project(bigint VERSION 0.1)
 
-file(GLOB_RECURSE _SRCS "*.cpp")
+file(GLOB_RECURSE _SRCS "*.cc")
  
 add_library(${PROJECT_NAME} STATIC ${_SRCS} )
 
